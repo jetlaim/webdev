@@ -1,0 +1,33 @@
+/* css latihancss.html */
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#container1 {
+    height: 800px;
+    width: 70%;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+#header{
+    width:100%;
+    height: 20%;
+    background-color: pink;
+}
+
+#content{
+    height: 60%;
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightgreen;
+}
+
+#footer {
+    height: 20%;
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightcoral;
+}
+/* end latihancss.html */
