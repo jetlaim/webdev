@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: aqua;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+.right {
+    background-color: aqua;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+.main {
+    background-color: aqua;
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+        width: 100%;
+    }
+    .text-center {
+        text-align: center;
+    }
+}
